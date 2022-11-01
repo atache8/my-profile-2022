@@ -1,0 +1,128 @@
+body{
+    background-color: #2D3142;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+/* body{
+    background: linear-gradient(-45deg, #0f1014, #4F5D75, #EF8354);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    text-align: center;
+} */
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+}
+
+b{
+    color: #EF8354;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Kanit', sans-serif;
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#profile-pic{
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+ul{
+    padding: 0%;
+}
+
+li{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.menu{
+    width: 800px;
+    margin: 0px auto;
+}
+
+.card{  
+    background-color: #1c2134;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.button{
+    background-color: #EF8354;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: #FFFFFF;
+    color: #EF8354;
+}
+
+.list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list li{
+    display: inline;
+    padding: 10px;
+}
+
+.list i{
+    font-size: 50px;
+    color: #EF8354;
+}
+
+.list i:hover{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+@media (max-width:800px) {
+    .menu {
+        width: 500px;
+    }
+}
+
+@media (max-width:600px) {
+    .menu {
+        width: 400px;
+    }
+}
